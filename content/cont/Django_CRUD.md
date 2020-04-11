@@ -1,5 +1,8 @@
 ---
 title: "Django CRUD"
+weight: 10
+chapter: true
+pre: "<b>2. </b>"
 ---
 
 ### CRUD - Create, Read, Update, Delete

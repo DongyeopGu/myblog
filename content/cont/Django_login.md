@@ -1,5 +1,8 @@
 ---
 title: "Django User"
+weight: 20
+chapter: true
+pre: "<b>4. </b>"
 ---
 
 ### User 관리(sign in, out, up)
