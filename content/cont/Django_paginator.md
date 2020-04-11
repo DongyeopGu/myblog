@@ -80,3 +80,9 @@ def review_list(request):
 
 - 현재 페이지에 따라 표시를 다르게 하기 위하여 `{% if page_obj.number == page %}`을 사용함
 
+---
+
+1. [Django 기초](https://dongyeopgu.github.io/cont/django_start.html)
+2. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
+3. [Django User](https://dongyeopgu.github.io/cont/django_login.html)
+

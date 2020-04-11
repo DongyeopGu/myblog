@@ -242,3 +242,9 @@ def update(request, pk):
 </form>
 ```
 
+---
+
+1. [Django 기초](https://dongyeopgu.github.io/cont/django_start.html)
+2. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
+3. [Django User](https://dongyeopgu.github.io/cont/django_login.html)
+

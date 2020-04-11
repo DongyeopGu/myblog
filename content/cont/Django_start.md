@@ -118,3 +118,10 @@ TEMPLATES = [
 {% endblock %}
 ```
 
+
+
+---
+
+1. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
+2. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
+3. [Django User](https://dongyeopgu.github.io/cont/django_login.html)
