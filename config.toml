@@ -1,9 +1,12 @@
-baseURL = "dongyeopgu.github.io"
+baseURL = "/dongyeopgu.github.io/"
 relativeURLs = true
 uglyURLs = true
+defaultContentLanguage = "en"
 languageCode = "en-us"
 title = "여러가지"
 theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page. 
   # Useful to give opportunity to people to create merge request for your doc.
