@@ -1,5 +1,7 @@
 ---
 title: "D4 문제풀이"
-date: 2020-04-11T14:29:53+09:00
+weight: 15
+chapter: true
+pre: "<b>3. </b>"
 ---
 
