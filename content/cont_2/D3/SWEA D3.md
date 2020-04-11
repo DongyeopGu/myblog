@@ -595,13 +595,33 @@ for t in range(int(input())):
 ### 4522. 세상의 모든 팰린드롬
 
 ```python
-
+for t in range(int(input())):
+    a = list(input())
+    for i in range(len(a)//2):
+        if a[i] != a[-1-i]:
+            if a[i] == '?' or a[-1-i] == '?':
+                continue
+            else:
+                print(f"#{t+1} Not exist")
+                break
+    else:
+        print(f"#{t+1} Exist")
 ```
 
 ### 4579. 세상의 모든 팰린드롬2
 
 ```python
-
+for t in range(int(input())):
+    a = list(input())
+    result = 'Exist'
+    for i in range(len(a)//2):
+        if a[i] != a[-1-i]:
+            if a[i] == '*' or a[-1-i] == '*':
+                break
+            else:
+                result = 'Not exist'
+                break
+    print(f"#{t+1} {result}")
 ```
 
 ### 4615. 재미있는 오셀로 게임
