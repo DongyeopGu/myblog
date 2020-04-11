@@ -1,4 +1,4 @@
-baseURL = "http://dongyeopgu.github.io/"
+baseURL = "https://dongyeopgu.github.io/"
 relativeURLs = true
 uglyURLs = true
 defaultContentLanguage = "en"
