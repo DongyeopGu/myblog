@@ -6,7 +6,7 @@ title: "Django 시작하기"
 
 ---
 
-#### django 설치
+#### 1. django 설치
 
 ```
 $ pip install django==2.1.15
@@ -14,7 +14,7 @@ $ pip install django==2.1.15
 
 (2.1.15 기준으로 배웠기 때문에)
 
-#### 프로젝트 시작
+#### 2. 프로젝트 시작
 
 ```
 $ django-admin startproject {프로젝트 이름}
@@ -22,7 +22,7 @@ $ django-admin startproject {프로젝트 이름}
 ALLOWED_HOST = ['*']로 수정
 ```
 
-#### App 만들기
+#### 3. App 만들기
 
 ```
 manage.py 파일이 있는 폴더에서
@@ -33,7 +33,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-#### urls.py 작성
+#### 4. urls.py 작성
 
 ```
 # 프로젝트 이름/urls.py에서 예를 들어 index 페이지를 넣을 경우 
@@ -44,7 +44,7 @@ urlpatterns =[
 ## path의 url은 항상 /로 닫기 ##
 ```
 
-#### views.py 작성
+#### 5. views.py 작성
 
 ```
 # app 이름/views.py 에서
@@ -65,7 +65,53 @@ def index(request):
 - 함수 정의에서 첫번째 인자는 항상 request로
 - render에서도 첫번째 인자는 항상 request
 
-#### templates 폴더 만들기
+#### 6. templates 폴더 만들기
 
 - 필요한 html 파일을 app이름 폴더 안에 templates 폴더를 만든후 저장.
 - django template language는 https://docs.djangoproject.com/en/3.0/를 이용해서 확인
+
+#### 7. base.html 만들 경우
+
+```python
+# 프로젝트명 폴더에 templates 폴더를 만든 후
+# settings.py에서
+TEMPLATES = [
+    {
+        ...
+        'DIRS': [
+                    os.path.join(BASE_DIR, 'templates')
+                ],   # 추가
+        ...
+    }
+]
+```
+
+- base.html 작성
+
+```html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
+```
+
+- 그리고 app이름 폴더에 있는 templates 안에 있는 html 파일들에 내용 추가
+
+```html
+{% extends 'base.html' %}
+{% block body %}
+
+<!-- html 작성 -->
+
+{% endblock %}
+```
+
