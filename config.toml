@@ -64,3 +64,5 @@ url = "/tags"
 weight = 13
 
 disqusShortname = "dongyeopgu-github-io"
+
+googleAnalytics = "dongyeop"
