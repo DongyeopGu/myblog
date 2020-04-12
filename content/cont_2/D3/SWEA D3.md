@@ -1,6 +1,6 @@
 ---
 title: "SWEA - Python - D3"
-tag : ["SWEA", "D3"]
+tags : ["SWEA", "D3"]
 ---
 
 ### 1240. 단순 2진 암호코드

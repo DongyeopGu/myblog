@@ -3,7 +3,7 @@ title: "Django User"
 weight: 20
 chapter: true
 pre: "<b>4. </b>"
-tag : ["django", "sign in", "sign out", "sign up"]
+tags : ["django", "sign in", "sign out", "sign up"]
 ---
 
 ### User 관리(sign in, out, up)

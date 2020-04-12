@@ -3,7 +3,7 @@ title: "Django Paginator"
 weight: 15
 chapter: true
 pre: "<b>3. </b>"
-tag : ["django", "paginator", "pagination"]
+tags : ["django", "paginator", "pagination"]
 ---
 
 ### Paginator 사용하기
