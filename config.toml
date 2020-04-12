@@ -51,3 +51,9 @@ name = "<i class='fab fa-fw fa-github'></i> GitHub"
 identifier = "ds"
 url = "https://github.com/DongyeopGu"
 weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-email'></i> Email"
+identifier = "ds"
+url = "gdy6650@gmail.com"
+weight = 15
