@@ -58,7 +58,7 @@ name = "<i class='fas fa-fw fa-camera'></i> Instagram"
 url = "https://www.instagram.com/gu_daeng/"
 weight = 12
 
-[[Languages.en.menu.shortcuts]]
+[[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-tags'></i> Tag"
 url = "/tags"
 weight = 13
