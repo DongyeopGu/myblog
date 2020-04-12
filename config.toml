@@ -54,6 +54,6 @@ weight = 10
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-email'></i> Email"
-identifier = "ds"
-url = "gdy6650@gmail.com"
-weight = 15
+identifier = "email"
+email = "gdy6650@gmail.com"
+weight = 11
