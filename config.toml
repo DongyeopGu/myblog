@@ -53,7 +53,7 @@ url = "https://github.com/DongyeopGu"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-email'></i> Email"
+name = "<i class='fab fa-fw fa-bookmark'></i> Email"
 identifier = "email"
 email = "gdy6650@gmail.com"
 weight = 11
