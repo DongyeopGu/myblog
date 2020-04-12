@@ -57,3 +57,8 @@ name = "<i class='fab fa-fw fa-email'></i> Email"
 identifier = "email"
 email = "gdy6650@gmail.com"
 weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Instagram"
+url = "https://www.instagram.com/gu_daeng/"
+weight = 12
