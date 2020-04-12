@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir= true
   # Author of the site, will be used in meta information
   author = "Dongyeop"
   # Description of the site, will be used in meta information
-  description = "여러가지 만들어 보는 중"
+  description = "여러가지"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
