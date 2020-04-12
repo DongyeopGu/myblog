@@ -40,27 +40,27 @@ defaultContentLanguageInSubdir= true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[Languages]
-[Languages.en]
-title = "Documentation for Hugo Learn Theme"
-weight = 1
-languageName = "English"
 
-[[Languages.en.menu.shortcuts]]
+[[menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub"
 identifier = "ds"
 url = "https://github.com/DongyeopGu"
 weight = 10
 
-[[Languages.en.menu.shortcuts]]
+[[menu.shortcuts]]
 name = "<i class='fab fa-fw fa-bookmark'></i> Email"
 identifier = "email"
 url = "mailto:gdy6650@gmail.com"
 weight = 11
 
-[[Languages.en.menu.shortcuts]]
+[[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-camera'></i> Instagram"
 url = "https://www.instagram.com/gu_daeng/"
 weight = 12
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-tags'></i> Tag"
+url = "/tags"
+weight = 13
 
 disqusShortname = "dongyeopgu-github-io"

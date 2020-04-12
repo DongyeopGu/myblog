@@ -1,6 +1,6 @@
 ---
 title: "SWEA - Python - D4"
-date: 2020-04-11T14:29:53+09:00
+tag: "SWEA", "D4"
 ---
 
 ### 1210. Ladder1
