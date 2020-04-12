@@ -3,6 +3,7 @@ title: "Django CRUD"
 weight: 10
 chapter: true
 pre: "<b>2. </b>"
+tag : ["django", "create", "read", "update", "delete", "crud"]
 ---
 
 ### CRUD - Create, Read, Update, Delete

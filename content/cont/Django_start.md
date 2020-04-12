@@ -3,6 +3,7 @@ title: "Django 시작하기"
 weight: 5
 chapter: true
 pre: "<b>1. </b>"
+tag : ["django"]
 ---
 
 ### 기초

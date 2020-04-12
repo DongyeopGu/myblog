@@ -1,6 +1,6 @@
 ---
 title: "BAEKJOON - Python"
-date: 2020-04-11T14:29:53+09:00
+tag : ["baekjoon", "백준"]
 ---
 
 ### 14890. 경사로
