@@ -40,7 +40,13 @@ defaultContentLanguageInSubdir= true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[menu.shortcuts]
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub"
 identifier = "ds"
 url = "https://github.com/DongyeopGu"
