@@ -59,8 +59,7 @@ url = "https://www.instagram.com/gu_daeng/"
 weight = 12
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-fw fa-tags'></i> Tag"
-identifier = "tags"
+name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
 weight = 13
 
