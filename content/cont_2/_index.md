@@ -3,6 +3,7 @@ title: "Algorithm 문제풀이"
 weight: 10
 chapter: true
 pre: "<b>1. </b>"
+tags: ["백준","baekjoon","SWEA"]
 ---
 
 

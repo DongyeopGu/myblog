@@ -3,6 +3,7 @@ title: "D4 문제풀이"
 weight: 15
 chapter: true
 pre: "<b>3. </b>"
+tags: ["SWEA"]
 ---
 
 # SW Expert Academy의 Python D4 문제
