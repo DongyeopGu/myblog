@@ -440,6 +440,15 @@ def signout(request):
 </html>
 ```
 
+
+
+#### 참고
+
+----
+
+- 내가 여기서 사용한 것은 django에서 기본으로 제공하는 user 모델만 사용했음.
+- 하지만 django에서는 UserCreationForm 이라는 ModelForm도 제공함. 다만, UserCreationForm은 username과 password1, 2만 입력받음. 
+
 ---
 
 1. [Django 기초](https://dongyeopgu.github.io/cont/django_start.html)
