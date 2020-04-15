@@ -4,8 +4,6 @@ title: "Dongyeop's Blog"
 
 # 여러가지 해보는 중
 
-{{% notice note %}}
-
 ### Algorithm
 
 > - [SWEA D3](https://dongyeopgu.github.io/cont_2/d3.html)
@@ -23,6 +21,4 @@ title: "Dongyeop's Blog"
 ### Hugo-blog
 
 >1. [Hugo로 Blog만들기](https://dongyeopgu.github.io/hugo-blog.html)
-
-{{% /notice %}}
 
