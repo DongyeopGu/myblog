@@ -29,8 +29,7 @@ ALLOWED_HOST = ['*']로 수정
 #### 3. App 만들기
 
 ```python
-# manage.py 파일이 있는 폴더에서
-# bash 에서 $ python manage.py startapp {앱 이름}
+# manage.py 파일이 있는 폴더에서 터미널 진입 후 bash 에 $ python manage.py startapp {앱 이름}
 # 그 후에 settings.py에서 
 INSTALLED_APPS = [
 	'{앱 이름}' 추가
