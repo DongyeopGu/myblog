@@ -20,7 +20,7 @@ $ pip install django==2.1.15
 
 #### 2. 프로젝트 시작
 
-```
+```shell
 $ django-admin startproject {프로젝트 이름}
 그 후에 프로젝트 폴더의 settings.py에서 
 ALLOWED_HOST = ['*']로 수정
@@ -28,10 +28,10 @@ ALLOWED_HOST = ['*']로 수정
 
 #### 3. App 만들기
 
-```
-manage.py 파일이 있는 폴더에서
-$ python manage.py startapp {앱 이름}
-그 후에 settings.py에서 
+```python
+# manage.py 파일이 있는 폴더에서
+# bash 에서 $ python manage.py startapp {앱 이름}
+# 그 후에 settings.py에서 
 INSTALLED_APPS = [
 	'{앱 이름}' 추가
 ]
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
 
 #### 4. urls.py 작성
 
-```
+```python
 # 프로젝트 이름/urls.py에서 예를 들어 index 페이지를 넣을 경우 
 from app이름 import views #추가
 urlpatterns =[
@@ -50,7 +50,7 @@ urlpatterns =[
 
 #### 5. views.py 작성
 
-```
+```python
 # app 이름/views.py 에서
 def index(request):
 	return render(request, 'index.html') #기본 형식
