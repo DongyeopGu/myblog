@@ -66,6 +66,7 @@ weight = 13
 disqusShortname = "dongyeopgu-github-io"
 
 googleAnalytics = "dongyeop"
+
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [taxonomies]
   tag = "tags"
