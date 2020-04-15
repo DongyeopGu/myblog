@@ -125,4 +125,5 @@ TEMPLATES = [
 
 1. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
 2. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
-3. [Django User](https://dongyeopgu.github.io/cont/django_login.html)
+3. [Django User(1)](https://dongyeopgu.github.io/cont/django_login.html)
+4. [Django User(2)](https://dongyeopgu.github.io/cont/django_change_user.html)

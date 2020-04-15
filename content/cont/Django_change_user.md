@@ -95,3 +95,39 @@ class CustomUserChangeForm(UserChangeForm):		# User 정보를 update하기 위�
 
 > 메타 클래스에서 password widget을 설정해도 전혀 변화가 없음. 공식 문서에 따르면 ModelForm 클래스에서 명시적으로 선언된 필드는 메타 클래스에서 설정된 속성의 영향을 받지 않는다고 함.
 
+#### 4. Migration 실행
+
+- model의 변경사항이 있기 때문에 migration을 진행한다
+
+  ```shell
+  $ python manage.py makemigrations
+  $ python manage.py migrate
+  ```
+
+#### 5. views.py와 urls.py에 Update를 추가
+
+```python
+#### views.py
+from django.shortcuts import render, redirect
+from .forms import CustomUserChangeForm   # customizing 한 changeform을 불러옴
+
+def update(request, pk):   # 각각의 유저 정보를 얻고 수정하기 위해 pk값을 받아옴
+    if request.method == 'POST':
+        form = CustomUserChangeForm(request.POST, instance=request.user)   # instance를 가져와야 기존에 있던 정보를 토대로 수정할 수 있음, 없을경우 빈칸으로 시작됨
+        if form.is_valid():
+            form.save()
+            return redirect('accounts:index')   # 수정을 완료하면 저장 후 인덱스 페이지로 redirect
+    else:
+        form = CustomUserChangeForm(instance=request.user)
+    context = {
+        'form': form
+    }
+    return render(request, 'accounts/update.html', context)
+
+```
+
+1. [Django 기초](https://dongyeopgu.github.io/cont/django_start.html)
+2. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
+3. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
+4. [Django User(1)](https://dongyeopgu.github.io/cont/django_login.html)
+
