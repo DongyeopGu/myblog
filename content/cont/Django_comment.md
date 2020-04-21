@@ -35,7 +35,7 @@ class CommentForm(forms.ModelForm):
         # fields를 __all__로 해도 됨(all로 했을 경우에는 댓글 작성시 모든 값을 잘 입력 해야한다. *all로 하고 필요한 값을 입력 안했을 경우 저장이 되지 않음)
 ```
 
-- makemigrations와 migrate를 해야함
+> makemigrations와 migrate를 해야함
 
 - views.py에서 댓글 작성하는 함수를 추가
 
