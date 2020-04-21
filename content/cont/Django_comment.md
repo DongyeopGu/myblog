@@ -1,0 +1,113 @@
+---
+title: "Django Comment"
+weight: 22
+chapter: true
+pre: "<b>6. </b>"
+tags: ["django", "comment"]
+
+---
+
+## Django 댓글 작성 & 삭제
+
+> 게시글의 model은 Article로 만들었을 경우임. ForeignKey를 사용.
+
+- 댓글 작성
+
+  - models.py에서 댓글 설정을 위한 class를 만든다.(user 설정을 안했을 경우)
+
+    ```python
+    class Comment(models.Model):
+        article = models.ForeignKey(Article, on_delete=models.CASCADE)
+        #on_delete=models.CASCADE는 ForeignKeyField가 삭제 될때 인스턴스도 같이 삭제
+        content = models.TextField()
+    ```
+
+  - forms.py에도 추가
+
+    ```python
+    from django import forms
+    from .models import Comment
+    
+    class CommentForm(forms.ModelForm):
+        class Meta:
+            model = Comment
+            fields = ['content']
+            # fields를 __all__로 해도 됨(all로 했을 경우에는 댓글 작성시 모든 값을 잘 입력 해야한다. *all로 하고 필요한 값을 입력 안했을 경우 저장이 되지 않음)
+    ```
+
+    - makemigrations와 migrate를 해야함
+
+  - views.py에서 댓글 작성하는 함수를 추가
+
+    ```python
+    from .models import Article, Comment
+    from .forms import ArticleForm, CommentForm
+    
+    def comments_create(request, article_pk):
+        article = get_object_or_404(Article, article_pk=pk)
+        if request.method=='POST':
+            form = CommentForm(request.POST)
+            if form.is_valid():
+                comment = form.save(commit=False)
+                comment.article = article
+                comment.save()
+            return redirect('articles:detail', article.pk)
+        else:
+            form = CommentForm()
+        context = {
+            'form': form
+        }
+        return render(request, 'articles/comments_create.html', context)
+    ```
+
+    > `commit=False`을 사용 하면 간단하게 db에 당장 저장하지 않고 지연시켜 중복 저장을 방지. 그렇기에 `comment.article=article` 을 통해  not null 에러가 발생하지 않게 해준다. 
+
+  - urls.py에도 추가
+
+    ```python
+    path('<int:article_pk>/comments/', views.comments_create, name='comments_create'),
+    ```
+
+  - html 작성
+
+    ```html
+    <!-- 먼저 게시글을 보여주는 html에서 댓글을 나오게 하기 위해 -->
+    {% for comment in article.comment_set.all %}
+    	<li>{{ comment.content }}</li>
+    {% endfor %}
+    <!-- 댓글을 작성하는 html을 만들경우 -->
+    <form action="" method="POST">
+      {% csrf_token %}
+      {{ form.content }}
+      <input type="submit" value="작성">
+    </form>
+    ```
+
+- 댓글 삭제
+
+  - views.py에 삭제하는 함수 추가
+
+    ```python
+    def comments_delete(request, comment_pk,article_pk):
+        comment = get_object_or_404(Comment, pk=comment_pk)
+        article = get_object_or_404(Article, pk=article_pk)
+        comment.delete()
+        return redirect('articles:detail', article.pk)
+    ```
+
+  - urls.py
+
+    ```python
+        path('<int:article_pk>/comments/<int:comment_pk>/delete', views.comments_delete, name='comments_delete')
+    ```
+
+  - 댓글나오는 html
+
+    ```html
+    {% for comment in article.comment_set.all %}
+    	<li>{{ comment.content }}<a href="{% url 'articles:comments_delete' article.pk comment.pk %}">삭제</a></li>
+    {% endfor %}
+    ```
+
+    
+
