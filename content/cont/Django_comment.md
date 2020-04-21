@@ -1,10 +1,10 @@
 ---
-title: "Django Comment"
+title: "Django_comment"
+date: 2020-04-21T22:54:07+09:00
 weight: 22
 chapter: true
 pre: "<b>6. </b>"
 tags: ["django", "comment"]
-
 ---
 
 ## Django 댓글 작성 & 삭제
