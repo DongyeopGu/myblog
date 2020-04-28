@@ -455,4 +455,5 @@ def signout(request):
 2. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
 3. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
 4. [Django User(2)](https://dongyeopgu.github.io/cont/django_change_user.html)
+5. [Django Comment](https://dongyeopgu.github.io/cont/django_comment.html)
 

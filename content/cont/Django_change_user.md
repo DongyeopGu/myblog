@@ -130,4 +130,5 @@ def update(request, pk):   # 각각의 유저 정보를 얻고 수정하기 위�
 2. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
 3. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
 4. [Django User(1)](https://dongyeopgu.github.io/cont/django_login.html)
+5. [Django Comment](https://dongyeopgu.github.io/cont/django_comment.html)
 

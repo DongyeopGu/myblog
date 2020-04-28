@@ -4,7 +4,7 @@ date: 2020-04-21T22:54:07+09:00
 weight: 22
 chapter: true
 pre: "<b>6. </b>"
-tags: ["django", "comment"]
+tags: ["django", "comment", "1:N"]
 ---
 
 ## Django 댓글 작성 & 삭제
@@ -110,4 +110,12 @@ def comments_delete(request, comment_pk,article_pk):
 ```
 
 
+
+----
+
+1. [Django 기초](https://dongyeopgu.github.io/cont/django_start.html)
+2. [Django CRUD](https://dongyeopgu.github.io/cont/django_crud.html)
+3. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
+4. [Django User(1)](https://dongyeopgu.github.io/cont/django_login.html)
+5. [Django User(2)](https://dongyeopgu.github.io/cont/django_change_user.html)
 
