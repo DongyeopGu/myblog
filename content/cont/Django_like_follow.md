@@ -1,6 +1,5 @@
 ---
-title: "Django M:N model"
-date: 2020-04-28T22:54:07+09:00
+title: "Django M:N"
 weight: 23
 chapter: true
 pre: "<b>7. </b>"
