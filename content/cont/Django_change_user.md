@@ -131,4 +131,7 @@ def update(request, pk):   # 각각의 유저 정보를 얻고 수정하기 위�
 3. [Django Paginator](https://dongyeopgu.github.io/cont/django_paginator.html)
 4. [Django User(1)](https://dongyeopgu.github.io/cont/django_login.html)
 5. [Django Comment](https://dongyeopgu.github.io/cont/django_comment.html)
+6. [Django M:N](https://dongyeopgu.github.io/cont/django_like_follow.html)
+
+
 
