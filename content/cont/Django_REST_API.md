@@ -11,7 +11,6 @@ tags: ["django","REST API", "REST Framework"]
 #### 1. REST API(DRF: Django Rest Framework)
 
 - REST API를 활용하면 백 엔드와 프론트 엔드 분리가 쉽고 코드의 재활용성이 좋다.
-
 - REST API를 사용하기 위해서 먼저 설치가 필요
 
 ```shell
@@ -19,7 +18,6 @@ $ pip install djangorestframework
 ```
 
 - settings.py에서 `INSTALLED_APPS`에 `'rest_framework'`추가
-
 - app 폴더에 serializers.py 파일을 만들고 내용 추가
 
 ```python
