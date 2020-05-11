@@ -128,3 +128,5 @@ TEMPLATES = [
 4. [Django User(2)](https://dongyeopgu.github.io/cont/django_change_user.html)
 5. [Django Comment](https://dongyeopgu.github.io/cont/django_comment.html)
 6. [Django M:N](https://dongyeopgu.github.io/cont/django_like_follow.html)
+7. [Django REST Framework](https://dongyeopgu.github.io/cont/django_rest_api.html)
+
