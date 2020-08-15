@@ -1,11 +1,11 @@
 ---
-title: "Node js Express"
-tags: ["Node", "Node.js", "Express"]
+title: "Node.js / Express.js"
+tags: ["Node", "Node.js", "Express", "Express.js"]
 weight: 23
 pre: "<b>5. </b>"
 ---
 
-### Node.js, Express 학습 내용
+### Node.js, Express.js 
 
-> Node.js, Express 내용 정리
+> Node.js, Express.js 내용 정리
 
