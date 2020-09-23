@@ -1,5 +1,5 @@
 ---
-title: "많이 사용한 Ubuntu / Linux 명령어"
+title: "많이 사용한 Ubuntu 명령어"
 tags: ["Ubuntu"]
 weight: 2
 pre: "<b>2. </b>"
