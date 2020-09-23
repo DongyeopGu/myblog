@@ -1,11 +1,11 @@
 ---
-title: "많이 사용한 Ubuntu 명령어"
+title: "많이 사용한 Ubuntu / Linux 명령어"
 tags: ["Ubuntu"]
 weight: 2
 pre: "<b>2. </b>"
 ---
 
-# 많이 사용한 Ubuntu / Linux 명령어
+# 명령어
 
 >나중에 생각안날때 보려고 만든 Ubuntu 18.04 에서 배포시 많이 사용했던 명령어들
 
