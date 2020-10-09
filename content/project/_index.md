@@ -24,7 +24,7 @@ weight: 6
 
 - 수상한 동물 사전(AI 이용한 동물 판단)
 
-  [Github repo 주소](https://github.com/DongyeopGu/animal-predict)
+  [Github repo 주소](https://github.com/DongyeopGu/predict-animal)
 
   배포 주소: [수상한 동물 사전](https://수상한동물사전.kro.kr)
 
