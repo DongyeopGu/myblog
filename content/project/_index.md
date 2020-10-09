@@ -18,6 +18,8 @@ weight: 6
   
 - 비접촉 체온 측정(IoT 프로젝트)
 
+  [Github repo 주소](https://github.com/DongyeopGu/iot-project)
+
   [배포 중단]
 
 - 수상한 동물 사전(AI 이용한 동물 판단)
