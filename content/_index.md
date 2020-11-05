@@ -27,6 +27,10 @@ title: "Dongyeop's Blog"
 >   [Github repo 주소](https://github.com/DongyeopGu/predict-animal)
 >
 >   [배포 중단]
+>   
+> - 정수리영역 점수(재미로 보는 탈모진단)(진행중)
+>
+>   [https://정수리영역점수.kro.kr](https://정수리영역점수.kro.kr)
 
 ### Algorithm
 

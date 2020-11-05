@@ -14,7 +14,7 @@ weight: 6
 
   [Github repo 주소](https://github.com/DongyeopGu/project-deployment)
 
-  [배포중단]
+  [배포 중단]
   
 - 비접촉 체온 측정(IoT 프로젝트)
 
@@ -26,7 +26,8 @@ weight: 6
 
   [Github repo 주소](https://github.com/DongyeopGu/predict-animal)
 
-  배포 주소: [수상한 동물 사전](https://수상한동물사전.kro.kr)
+  [배포 중단]
 
-  
+- 정수리영역 점수(재미로 보는 탈모진단)(진행중)
 
+  [https://정수리영역점수.kro.kr](https://정수리영역점수.kro.kr)
