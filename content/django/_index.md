@@ -15,4 +15,5 @@ pre: "<b>2. </b>"
 6. [Django Comment](https://dongyeopgu.github.io/cont/django_comment.html)
 7. [Django M:N](https://dongyeopgu.github.io/cont/django_like_follow.html)
 8. [Django REST Framework](https://dongyeopgu.github.io/cont/django_rest_api.html)
-
+9. [Django Image Upload]()
+10. [Django FBV vs CBV]()
